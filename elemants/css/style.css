@@ -1,18 +1,32 @@
-  .dropdown-hover{
+ul li{
     position:relative;
 }
+ul li a {
+  padding:0 30px !important;
+}
 
-.dropdown-menu1{
+ .nav-link{
+  color:#666666;
+}
+ul li ul{
     position:absolute;
-    top:-100px; 
+    top:30px; 
     visibility: hidden;
-    transition:.3s;
+    transition:.35s;
     list-style: none;
     padding:0;
     margin:0;
-    background:red;
+    background:#262626;
+    height:0px;
 }
-  .dropdown-hover:hover .dropdown-menu1{
-    top:35px;
+.dropdown-item {
+  color:#fff;
+  padding: 10px 30px !important;
+  border-bottom:1px solid rgba(255,255,255,.05);
+}
+ ul li:hover .dropdown-menu1  {
+    top:27px;
     visibility:visible;
-}
+    height:150px;
+    z-index: 44444;
+} 
