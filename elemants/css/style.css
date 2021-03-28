@@ -23,10 +23,23 @@ ul li ul{
   color:#fff;
   padding: 10px 30px !important;
   border-bottom:1px solid rgba(255,255,255,.05);
+  transition:.3s;
 }
- ul li:hover .dropdown-menu1  {
+.dropdown-item:hover {
+  background-color: #0d6efd;
+  color:#fff;
+  padding-left:35px !important;
+}
+  .border-2{
+    opacity: .4;
+  } 
+ ul li:hover >.dropdown-menu1  {
     top:27px;
     visibility:visible;
-    height:150px;
-    z-index: 44444;
+    height:140px;
+    z-index: 44444; 
 } 
+.single-slide{
+  background:url(../images/bg-1.jpg);
+  
+}
