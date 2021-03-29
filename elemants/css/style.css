@@ -1,3 +1,4 @@
+ 
 body{
   font-family: 'Lato', sans-serif;
 }
@@ -52,6 +53,13 @@ ul li ul{
   padding: 200px 0;
 
 }
+.slider-aria2{
+  background:url(../images/bg-2.jpg);
+  background-size:cover;
+  background-position: center;
+  padding: 200px 0;
+
+}
 .single-slide h3{
   font-weight: 400;
   font-size: 30px;
@@ -60,4 +68,39 @@ ul li ul{
   font-size: 72px;
   font-weight: 900;
 
+}
+.benner p{
+  font-size: 18px;
+}
+.owl-dots{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left:48%;
+}
+.owl-dots .active{
+  background: #768091 !important
+}
+.owl-dot{
+  width: 10px;
+  height: 10px;
+  border-radius:50%; 
+  margin:2px;
+   background: #0d6efd !important;
+}
+.owl-nav{
+  position:absolute;
+  top:45%; 
+  z-index: 4484494;
+  font-size: 30px;
+  color: #fff;
+  width: 100%; 
+}
+.owl-prev , .owl-next{
+  width: 25px; 
+  height: 40px;
+  text-align:center; 
+  display: block;
+  background:rgba(0,0,0,.8)!important;
 }
