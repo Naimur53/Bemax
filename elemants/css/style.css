@@ -99,8 +99,8 @@ ul li ul{
   display: flex;
   justify-content: space-between;
 }
-.owl-prev , .owl-next{
-
+.gs-btn:hover{
+  background: #262626 !important;;
 }
 .owl-prev span, .owl-next span{   
   width: 25px; 
