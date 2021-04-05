@@ -109,4 +109,20 @@ ul li ul{
   display: block;
   background:rgba(0,0,0,.8)!important;
   padding-bottom: 50px;
+} 
+.img-wrap{
+  position: relative;
+}
+.overlay{ 
+  background:rgba(66,114,215,.9);
+  color:#fff;
+  position: absolute;
+  left:0;
+  top:0;
+  padding: 0 20px 271px 30px;
+ transform:translateY(236px);
+ transition: .49s;
+}
+.overlay:hover{
+  transform: translateY(1px);
 }
