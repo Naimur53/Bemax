@@ -96,11 +96,17 @@ ul li ul{
   font-size: 30px;
   color: #fff;
   width: 100%; 
+  display: flex;
+  justify-content: space-between;
 }
 .owl-prev , .owl-next{
+
+}
+.owl-prev span, .owl-next span{   
   width: 25px; 
   height: 40px;
-  text-align:center; 
+  text-align:center;  
   display: block;
   background:rgba(0,0,0,.8)!important;
+  padding-bottom: 50px;
 }
