@@ -159,4 +159,8 @@ ul li ul{
   left: 45%;
   top: 45%;
   color: #fff;
+  transition:.3s; 
+}
+.fa-play-circle:hover{
+  opacity: .7;
 }
