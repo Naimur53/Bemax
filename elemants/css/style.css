@@ -124,7 +124,7 @@ ul li ul{
  transition: .49s;
 }
 .overlay:hover{
-  transform: translateY(1px);
+  transform: translateY(0px);
 }
 .icon-div i{
   width:50px;
@@ -141,4 +141,15 @@ ul li ul{
 .icon-div:hover i{
   background-color: #fff;
   color:#4272d7;
+}
+.bg-gray{
+  background:#f0f0f0;
+}
+.sec-heading hr{
+  width:40px; 
+  margin:0 auto;
+  opacity: .5 ;
+}
+.bg-dark{
+  background:#222;
 }
