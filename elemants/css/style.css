@@ -153,3 +153,10 @@ ul li ul{
 .bg-dark{
   background:#222;
 }
+.fa-play-circle{
+  position: absolute;
+  font-size: 75px;
+  left: 45%;
+  top: 45%;
+  color: #fff;
+}

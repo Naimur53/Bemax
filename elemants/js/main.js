@@ -36,6 +36,11 @@ $(document).ready(function(){
         mousewheel: true,
         keyboard: true,
       });
+
+
+      $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'iframe'});
+      });
     
 
 });
