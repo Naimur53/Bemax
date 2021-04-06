@@ -126,3 +126,19 @@ ul li ul{
 .overlay:hover{
   transform: translateY(1px);
 }
+.icon-div i{
+  width:50px;
+  height:50px;
+  background-color: #4272d7;
+  border: 1px solid #4272d7;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color:#fff;
+  transition:.35s;
+}
+.icon-div:hover i{
+  background-color: #fff;
+  color:#4272d7;
+}
