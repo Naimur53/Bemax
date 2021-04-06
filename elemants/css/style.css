@@ -164,3 +164,9 @@ ul li ul{
 .fa-play-circle:hover{
   opacity: .7;
 }
+.video-contant-heading{
+  transition: .3s;
+}
+.video-contant-heading:hover{
+  color:#4272d7;
+}
