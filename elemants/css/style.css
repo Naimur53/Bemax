@@ -226,14 +226,14 @@ ul li ul{
   justify-content: flex-start;
   align-items: center;
 }
-.blog-slide-wrap   .owl-prev span, .owl-next span {
+.blog-slide-wrap .owl-prev span, .blog-slide-wrap .owl-next span {
   width: 25px;
   height: 25px;
   text-align: center;
-  display: block;
-  background: transparent!important;
+  display: block; 
   padding: 0;
   font-size: 20px;
+  background: transparent!important;
   border-radius: 50%; 
   border:1px solid #444;
   color:#444; 
@@ -243,4 +243,14 @@ ul li ul{
   width: 25px;
   height: 25px;
   text-align: center;  
+  margin-left:5px;  
+}
+.blockqute-contant::before{
+  content: '“';
+  position: absolute;
+  top: -24px;
+  left: -22px;
+  font-size: 64px;
+  color: #444;
+  opacity: .5;
 }
