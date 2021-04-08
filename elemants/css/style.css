@@ -296,3 +296,26 @@ ul li ul{
 .social-media ul li a:hover{
   background: #4272d7;
 }
+.footer-2nd-contant ul {
+ padding: 0 ;
+ list-style: none;
+}
+.footer-2nd-contant ul li a {
+  font-size: 13px;
+  line-height: 2.6153846154;
+  color: #ccc; 
+  padding: 0 !important;
+  text-decoration: none;
+}
+.footer-2nd-contant ul li a::before {
+  content: '';
+  width: 5px;
+  height:5px;
+  background-color: rgba(255,255,255,.2);
+  margin-right: 8px;
+  display: inline-block;
+}
+.footer-3rd-contant p{
+  color:#999;
+  font-size: 13px;
+}
