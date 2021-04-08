@@ -337,3 +337,7 @@ ul li ul{
 .footer-3rd-contant .input-group #button-addon2:focus{
   box-shadow:none;
 }
+.main-footer{
+  border-top:1px solid rgba(255,255,255,.05);
+  color:#ccc;
+}
