@@ -319,3 +319,21 @@ ul li ul{
   color:#999;
   font-size: 13px;
 }
+#button-addon2{
+  background: #4272d7;
+  color:#fff;
+}
+.footer-3rd-contant .input-group input[type=text]{
+  background-color: rgba(255,255,255,.1); 
+  border:none;
+  border-radius: 0;
+  color:#ccc;
+}
+.footer-3rd-contant .input-group input[type=text]:focus{
+  outline: none;
+  border: none;
+  box-shadow:none;
+}
+.footer-3rd-contant .input-group #button-addon2:focus{
+  box-shadow:none;
+}
