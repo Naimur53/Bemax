@@ -264,4 +264,35 @@ ul li ul{
 }
 .bg-dark-2{
   background:#171a21;
+} 
+.footer-contant p{
+  color:#999;
+}
+.social-media ul{
+  list-style: none;
+  padding:0; 
+}
+.social-media ul li {
+  padding:0;
+}
+.social-media ul li a{
+  padding: 0 10px!important; 
+  display: block;
+  width: 36px;
+  height: 36px; 
+  border-radius: 50%; 
+  transition: all .35s;
+  background-color: rgba(66,114,215,.1);
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+.social-media ul li a:hover{
+  background: #4272d7;
 }
