@@ -37,28 +37,14 @@ $(document).ready(function(){
         keyboard: true,
       });
 
-
-      $(document).ready(function() {
+ 
         $('.image-link').magnificPopup({type:'iframe'});
-      });
-    
-      $('.blog-slide-wrap').owlCarousel({
-        loop:true, 
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    })
+      
      
-    $('.brand-slider').owlCarousel({
+ 
+});
+ 
+    $('.blog-slide-wrap').owlCarousel({
       loop:true, 
       nav:true,
       responsive:{
@@ -69,9 +55,24 @@ $(document).ready(function(){
               items:1
           },
           1000:{
-              items:6
+              items:1
           }
       }
   })
+   
  
-});
+$('.brand-slider').owlCarousel({
+  loop:true, 
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:6
+      }
+  }
+  })

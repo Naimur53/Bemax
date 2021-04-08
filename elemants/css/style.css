@@ -259,8 +259,7 @@ ul li ul{
   height: 50px;
 } 
 .brand-slider.owl-carousel .owl-item img {
-    display: block;
-    width: inherit !important;
-
+  display: block;
+  width: inherit !important; 
 }
  
