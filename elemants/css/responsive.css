@@ -47,7 +47,18 @@ px      68    160    252    */
 	.benner div p{
 		text-align: center;
 	}
-	
+	.overlay{
+		transform: translateY(320px); 
+	}
+	.img-wrap{
+		margin-top:10px;
+	}
+	.res-display{
+		display: none;
+	}
+	.btn-css{
+		padding: .475rem .75rem;
+	}
 }
 
 

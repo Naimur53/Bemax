@@ -35,6 +35,7 @@ $(document).ready(function(){
         },
         mousewheel: true,
         keyboard: true,
+        
       });
 
  
