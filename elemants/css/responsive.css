@@ -17,10 +17,15 @@ px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
-	 
+	.benner div{
+		display: flex;
+		flex-direction: column; 
+	}
+	.benner div a{
+		margin-top:20px;	
+	}
 }
-
-
+ 
 
 /*		Mobile Layout: 320px.
 		Gutters: 24px.
@@ -32,7 +37,16 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 	
-	 
+	.benner div{
+		display: flex;
+		flex-direction: column; 
+	}
+	.benner div a{
+		margin-top:20px;	
+	}
+	.benner div p{
+		text-align: center;
+	}
 	
 }
 

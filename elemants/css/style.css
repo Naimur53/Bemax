@@ -341,3 +341,6 @@ ul li ul{
   border-top:1px solid rgba(255,255,255,.05);
   color:#ccc;
 }
+.navbar-toggler-icon { 
+  background: url(../images/download.svg);
+}
