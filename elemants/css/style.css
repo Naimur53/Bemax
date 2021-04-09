@@ -344,3 +344,6 @@ ul li ul{
 .navbar-toggler-icon { 
   background: url(../images/download.svg);
 }
+.brand-slider .owl-dots{
+  display: none;
+}

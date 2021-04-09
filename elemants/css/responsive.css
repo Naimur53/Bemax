@@ -71,10 +71,48 @@ px      68    160    252    */
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	
- 
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+	.blog-slide-wrap .owl-nav { 
+		top: -67px;
+		left: 80%;
+		 
+	}
+	.blog-main-heading h2 {
+		font-size: 24px;
+		line-height: 1.8;
+		color: #333; 
+		
+	}  
+	.overlay h4{
+		padding:10px 0px !important;
+		font-size: 19px !important;
+	}
 
+}
+@media only screen and (min-width: 300px) and (max-width: 350px){
+	.overlay {
+		transform: translateY(185px);
+	}
+}
+@media only screen and (min-width: 351px) and (max-width: 385px){
+	.overlay {
+		transform: translateY(213px);
+	}
+}
+@media only screen and (min-width: 386px) and (max-width: 415px){
+	.overlay {
+		transform: translateY(235px);
+	}
+}
+@media only screen and (min-width: 416px) and (max-width: 450px){
+	.overlay {
+		transform: translateY(261px);
+	}
+}
+@media only screen and (min-width: 451px) and (max-width: 470px){
+	.overlay {
+		transform: translateY(261px);
+	}
 }
 
 
